@@ -1,0 +1,21 @@
+main:
+  - name: Submit
+    url: /submit/
+    weight: 10
+  - name: Browse
+    url: /browse/
+    weight: 20
+  - name: About
+    url: /about/
+    weight: 30
+  - name: Datasets
+    url: /datasets/
+    weight: 40
+
+footer:
+  - name: Privacy Policy
+    url: /privacy/
+    weight: 10
+  - name: Terms of Use
+    url: /terms/
+    weight: 20
