@@ -1,0 +1,25 @@
+hugoblox:
+  identity:
+    name: JSP
+    tagline: Journal of Strength & Performance
+  
+  # Zenodo uses a very clean, high-contrast academic palette
+  theme:
+    pack: minimal
+    colors:
+      primary: slate
+      neutral: slate
+  
+  # Professional serif typography for high readability
+  typography:
+    pack: academic
+    families:
+      heading: Lora
+      body: Source Serif 4
+  
+  # Enable academic features
+  content:
+    citations:
+      style: apa
+    reading_time:
+      enable: true
