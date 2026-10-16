@@ -1,7 +1,7 @@
 ---
-title: Journal of Exercise & Sport Science
+title: Journal of Strength and Performance
 summary: An open-access repository for modern sports research and human performance data.
-date: 2024-05-22
+date: 2026-10-16
 type: landing
 
 sections:
@@ -12,7 +12,7 @@ sections:
       search_placeholder: Search by DOI, author, or keyword...
       suggestions:
         - Biomechanics
-        - Nutrition
+        - Strength Conditioning
         - High Performance
     design:
       background:
