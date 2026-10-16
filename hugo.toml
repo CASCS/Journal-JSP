@@ -1,17 +1,6 @@
-baseURL = 'https://cosmic-choux-886ef0.netlify.app/'
-languageCode = 'en-us'
-title = 'Journal of Strength and Performance'
-theme = 'hugo-blox-builder'
+[build]
+  command = "hugo"
+  publish = "public"
 
-[module]
-  [[module.imports]]
-    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
-
-[params]
-  description = "Open-access scientific journal dedicated to physical conditioning, strength, and performance sciences in combat sports."
-  day_night = true
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
+[build.environment]
+  HUGO_VERSION = "0.147.9"
